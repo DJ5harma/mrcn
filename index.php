@@ -18,7 +18,7 @@
             background-image: linear-gradient(to top left, red, rgb(190, 0, 80));">
             <div class="flex items-center gap-2 w-full justify-around">
                 <a target="_blank" href="https://www.uietkuk.ac.in/">
-                    <image src="images/logo.png" alt="logo.png" width=80 height=80 class="lg:w-28" />
+                    <image src="images/kuk_logo.png" alt="kuk_logo.png" width=80 height=80 class="lg:w-28" />
                 </a>
                 <div class="flex flex-col items-center">
                     <h2>6th International Conference on</h2>
@@ -27,7 +27,7 @@
                     </h2>
                 </div>
                 <a target="_blank" href="https://www.springer.com/">
-                    <image src="/images/springer_logo.png" alt="springer logo" width=80 height=80
+                    <image src="images/springer_logo.png" alt="springer logo" width=80 height=80
                         class="rounded-full lg:w-28" />
                 </a>
             </div>

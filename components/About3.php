@@ -15,7 +15,7 @@
 <!-- About3 -->
 <div class="flex w-full py-4 gap-8 flex-col px-4 lg:flex-row border-white">
     <div class="m-auto">
-        <image src="/images/uiet.jpeg" width=1000 height=1000 alt="UIET" style="min-width: 45vw" />
+        <image src="../images/uiet.jpeg" width=1000 height=1000 alt="UIET" style="min-width: 45vw" />
     </div>
     <div class="flex flex-col gap-4 items-start [&>p]:text-justify sm:px-8">
         <h1>U.I.E.T. KUK</h1>
@@ -79,12 +79,12 @@
         </p>
     </div>
     <div class="m-auto">
-        <image src="/images/kuk.jpg" width=1000 height=1000 alt="UIET" style="min-width: 45vw" />
+        <image src="../images/kuk.jpg" width=1000 height=1000 alt="UIET" style="min-width: 45vw" />
     </div>
 </div>
 <div class="flex w-full py-4 gap-8 px-4 items-center flex-col lg:flex-row">
     <div class="flex flex-col items-center w-full">
-        <image src="/images/mrcn.jpeg" width=1000 height=1000 alt="MRCN" class="pl-4 w-52 lg:w-2/3" />
+        <image src="../images/mrcn.jpeg" width=1000 height=1000 alt="MRCN" class="pl-4 w-52 lg:w-2/3" />
     </div>
     <div class="flex flex-col gap-4 items-start [&>p]:text-justify sm:px-8">
         <h1>MRCN 2025</h1>
