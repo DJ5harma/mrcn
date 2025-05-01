@@ -6,21 +6,10 @@
 </head>
 
 <body>
-    <section class="h-20">
-        <!-- TopNav -->
-        <nav class="w-full h-full flex justify-around items-center text-lg font-semibold py-2">
-            <a href="index.php">
-                <button>Home</button>
-            </a>
-            <a href="special_sessions.php">
-                <button>Special Sessions</button>
-            </a>
-            <a href="travel_and_visa.php">
-                <button>Travel and Visa</button>
-            </a>
-        </nav>
-    </section>
 
+    <?php
+    include("components/common/TopNav.php");
+    ?>
 
     <div className="flex flex-col p-4" style="margin: 20px 0;">
         <h1>List of Confirmed Special Sessions</h1>
@@ -39,32 +28,42 @@
         </thead>
         <tbody>
             <tr>
-                <td class="border bg-gray-200">Dr. Sugandha Singh</td>
-                <td class="border p-2">
+                <td class="border flex flex-col gap-2 p-2">
+                    <p>Dr. Sugandha Singh</p>
+                    <p>Dr. Manoj Kumar</p>
+                    <p>Dr. Urmila Pilania</p>
+                </td>
+                <td class="border p-2 bg-gray-200">
                     <a href="special_sessions/(Dr.) Sugandha Singh.docx" download>Download</a>
                 </td>
             </tr>
             <tr>
-                <td class="border p-2">Avinash Sharma</td>
-                <td class="border bg-gray-200">
+                <td class="border p-2 bg-gray-200">Avinash Sharma</td>
+                <td class="border">
                     <a href="special_sessions/Avinash Sharma-special session.docx" download>Download</a>
                 </td>
             </tr>
             <tr>
-                <td class="border bg-gray-200">Dr. Tejinder Kaur</td>
-                <td class="border p-2">
+                <td class="border flex flex-col gap-2 p-2">
+                    <p>Dr. Tejinder Kaur</p>
+                    <p>Dr. Pradosh Kumar Gantayat</p>
+                </td>
+                <td class="border p-2 bg-gray-200">
                     <a href="special_sessions/Dr. Tejinder Kaur.docx" download>Download</a>
                 </td>
             </tr>
             <tr>
-                <td class="border p-2">Dr. Rohit Tanwar</td>
-                <td class="border bg-gray-200">
+                <td class="border p-2 bg-gray-200">Dr. Rohit Tanwar</td>
+                <td class="border ">
                     <a href="special_sessions/Dr. ROHIT TANWAR.docx" download>Download</a>
                 </td>
             </tr>
             <tr>
-                <td class="border bg-gray-200">Dr. Deepali Gupta</td>
-                <td class="border p-2">
+                <td class="border flex flex-col gap-2 p-2">
+                    <p>Dr. Deepali Gupta</p>
+                    <p>Dr. Mudita</p>
+                </td>
+                <td class="border p-2 bg-gray-200">
                     <a href="special_sessions/Dr. Deepali Gupta.docx" download>Download</a>
                 </td>
             </tr>
@@ -72,7 +71,7 @@
     </table>
 
     <!-- Footer -->
-    <?php include 'components/Footer.php' ?>
+    <?php include 'components/common/Footer.php' ?>
 
 </body>
 
